@@ -2,6 +2,7 @@ const path = require('path')
 const express = require('express')
 const scam = require('scam')
 const app = express()
+const debug = process.argv.indexOf('debug') > -1 ? true : false
 
 // Express app setup
 app.set('port', (process.env.PORT || 3333))
@@ -13,7 +14,7 @@ app.set('port', (process.env.PORT || 3333))
 scam.init(app, {
 
 	// Set Scam to debug mode based on CLI params
-	debug: process.argv.indexOf('debug') > -1 ? true : false,
+	debug: debug,
 
 	// Other options
 	cache: 0,
