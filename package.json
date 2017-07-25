@@ -10,7 +10,7 @@
     "load": "node ./index.js load",
     "start": "node ./index.js",
     "dev": "nodemon ./index.js debug",
-    "lint": "eslint --ext .js src scripts"
+    "lint": "eslint --ext .js ./"
   },
   "author": "",
   "dependencies": {
