@@ -1,6 +1,6 @@
 const path = require('path')
 const express = require('express')
-const scam = require('./src')
+const scam = require('scam')
 const app = express()
 
 
