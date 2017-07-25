@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-		"postinstall": "npm run reload",
+    "postinstall": "npm run reload",
     "reload": "npm run clear && npm run create && npm run load",
     "clear": "node ./index.js clear",
     "create": "node ./index.js create",
@@ -17,7 +17,7 @@
   "dependencies": {
     "cors": "^2.8.4",
     "express": "^4.15.3",
-    "scam": "^0.1.0"
+    "scam": "^0.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
