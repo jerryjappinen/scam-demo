@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+		"postinstall": "npm run reload",
     "reload": "npm run clear && npm run create && npm run load",
     "clear": "node ./index.js clear",
     "create": "node ./index.js create",
