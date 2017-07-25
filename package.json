@@ -2,7 +2,10 @@
   "name": "scam-demo",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+	"main": "index.js",
+	"engines": {
+		"node": "8.1.2"
+	},
   "scripts": {
     "postinstall": "npm run reload",
     "reload": "npm run clear && npm run create && npm run load",
