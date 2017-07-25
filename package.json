@@ -1,0 +1,28 @@
+{
+  "name": "scam-demo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reload": "npm run clear && npm run create && npm run load",
+    "clear": "node ./index.js clear",
+    "create": "node ./index.js create",
+    "load": "node ./index.js load",
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js debug",
+    "lint": "eslint --ext .js src scripts"
+  },
+  "author": "",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "scam": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.2.0",
+    "nodemon": "^1.11.0",
+    "standard": "^10.0.2"
+  },
+  "false": {}
+}
