@@ -3,7 +3,6 @@ const express = require('express')
 const scam = require('scam')
 const app = express()
 
-
 // Express app setup
 app.set('port', (process.env.PORT || 3333))
 // app.use(require('cors'))
