@@ -4,18 +4,18 @@ module.exports = {
 	fields: {
 
 		post: {
-			type: 'post',
-			required: true
+			// required: true,
+			type: 'post'
 		},
 
 		user: {
-			type: 'user',
-			required: false
+			// required: false,
+			type: 'user'
 		},
 
 		body: {
-			type: 'string',
-			required: true
+			// required: true,
+			type: 'string'
 		}
 
 	}

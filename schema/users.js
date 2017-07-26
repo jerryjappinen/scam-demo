@@ -4,25 +4,25 @@ module.exports = {
 	plural: 'users',
 	fields: {
 
+		name: {
+			// required: true,
+			type: 'string'
+		},
+
 		email: {
-			type: 'string',
-			required: true
+			// required: true,
+			type: 'string'
 		},
 
 		accessLevel: {
+			// required: false,
 			type: 'number',
-			required: false,
 			default: 0
 		},
 
-		name: {
-			type: 'string',
-			required: true
-		},
-
 		phone: {
+			// required: false,
 			type: 'string',
-			required: false,
 			default: null
 		}
 

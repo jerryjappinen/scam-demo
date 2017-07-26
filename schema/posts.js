@@ -3,24 +3,24 @@ module.exports = {
 	plural: 'posts',
 	fields: {
 
-		user: {
-			type: 'user',
-			required: true
-		},
-
 		title: {
-			type: 'string',
-			required: true
+			required: true,
+			type: 'string'
 		},
 
 		body: {
-			type: 'string',
-			required: true
+			required: true,
+			type: 'string'
+		},
+
+		user: {
+			required: true,
+			type: 'user' // Note singular
 		},
 
 		comments: {
-			type: 'comments', // Plural
-			required: true
+			required: true,
+			type: 'comments' // Note plural
 		}
 
 	}
