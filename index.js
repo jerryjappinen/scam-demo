@@ -1,6 +1,6 @@
 const path = require('path')
 const express = require('express')
-const scam = require('../scam/lib')
+const scam = require('scam')
 const app = express()
 const debug = process.argv.indexOf('debug') > -1 ? true : false
 
